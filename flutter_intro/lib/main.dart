@@ -16,12 +16,12 @@ class taxiMath extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           title: Text("Lists"),
-          toolbarHeight: 70,
+          toolbarHeight: 60,
         ),
         body: ListView(
           children: [
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(9.0),
               child: Container(
                 height: 200,
                 decoration: BoxDecoration(
@@ -90,4 +90,3 @@ class _centerContentState extends State<centerContent> {
     );
   }
 }
-//Learn listview and and trailing.
