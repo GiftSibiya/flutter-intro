@@ -25,12 +25,12 @@ class taxiMath extends StatelessWidget {
               child: Container(
                 height: 200,
                 decoration: BoxDecoration(
-                    color: Colors.deepPurple,
-                    borderRadius: BorderRadius.circular(20)),
+                    color: Colors.blue,
+                    borderRadius: BorderRadius.circular(25)),
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(8.0),
+              padding: const EdgeInsets.all(10.0),
               child: Container(
                 height: 200,
                 decoration: BoxDecoration(
